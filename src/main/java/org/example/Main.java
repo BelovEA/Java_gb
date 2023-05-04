@@ -1,7 +1,7 @@
 package org.example;
 
 import java.util.Scanner;
-//pull
+//pull request
 public class Main {
 
     public static void main(String[] args) {
