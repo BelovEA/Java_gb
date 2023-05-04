@@ -20,11 +20,11 @@ public class Main {
                 previousNum = currentNum;
             } else {
                 System.out.println("Invalid input. Please enter an integer.");
-                scanner.next(); // consume invalid input
+                scanner.next();
             }
         } while (currentNum != 0);
 
-        scanner.close(); // close the Scanner
+        scanner.close();
 
         System.out.println("Sum of positive integers following a negative integer: " + sum);
     }
